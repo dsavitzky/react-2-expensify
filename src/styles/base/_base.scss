@@ -1,0 +1,31 @@
+html {
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: 'National 2', Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: $color--canvas; 
+}
+
+button {
+    cursor: pointer;
+
+    &:disabled {
+        cursor: default;
+    }
+}
+
+h3 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+.isActive {
+    font-weight: bold
+}
