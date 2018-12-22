@@ -16,7 +16,7 @@ export const expenses = [
     {
         id: 2,
         description: 'Rent',
-        note: '',
+        note: 'poo',
         amount: 500,
         createdAt: fiveDaysLater
     },
